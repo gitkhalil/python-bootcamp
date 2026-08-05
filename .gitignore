@@ -1,0 +1,23 @@
+# Virtuelle Umgebungen
+venv/
+.venv/
+env/
+
+# Python-Cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Geheimnisse / Zugangsdaten — NIEMALS committen!
+.env
+*.env
+secrets.json
+
+# Editor & Betriebssystem
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
